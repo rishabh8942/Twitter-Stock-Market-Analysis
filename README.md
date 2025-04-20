@@ -1,21 +1,49 @@
-# Twitter-Stock-Market-Analysis
 
-Twitter is one of the popular social media applications
-where people share what they feel in a limited number
-of words. Twitter is popular but not in the stock
-market. As Twitter is being delisted from the New
-York stock exchange, let’s analyze the complete
-timeline of Twitter in the stock market.
+---
 
-#Dataset Description
-Twitter Stock Market Analysis Dataset:
-1. Date: The date on which the stock data is recorded.
-2. Open: The stock price at the opening of the trading
-day.
-3. High: The highest stock price during the trading day.
-4. Low: The lowest stock price during the trading day.
-5. Close: The stock price at the close of the trading day.
-6. Adj Close: The adjusted closing price accounting for
-any dividends or stock splits.
-7. Volume: The total number of shares traded during
-the day.
+## 📌 Objectives
+
+- Analyze Twitter's stock trends and performance (2018–2022)
+- Identify patterns in stock price, volume, and volatility
+- Perform statistical tests (T-test, Chi-Square) for dependencies
+- Visualize trends through line charts, bar charts, and word clouds
+- Build an interactive dashboard for dynamic analysis
+
+---
+
+## 🔧 Tools & Technologies
+
+- **Python**: Pandas, NumPy, Matplotlib, Seaborn, Plotly
+- **Streamlit**: Interactive dashboard development
+- **SciPy**: Statistical analysis
+- **WordCloud**: Generating visual text insights
+- **Jupyter Notebook**: Exploratory data analysis
+
+---
+
+## 📊 Visualizations
+
+- 📈 Line Chart – Closing price trend over time
+- 📊 Bar Chart – Trading volume analysis
+- ☁️ Word Cloud – Key market insights
+
+---
+
+## 📋 Statistical Analysis
+
+- **T-Test**: Revealed a significant difference between high and low prices
+- **Chi-Square Test**: Showed dependency between High, Low, and Close prices
+
+---
+
+## 🚀 Interactive Dashboard
+
+Built using **Streamlit**, the dashboard allows:
+
+- Filtering stock trends by time periods (6M, 1Y, 3Y, Full Data)
+- Exploring trading volume patterns
+- Viewing key insights in chart and text format
+
+### ▶️ Run the dashboard locally:
+```bash
+streamlit run app.py
